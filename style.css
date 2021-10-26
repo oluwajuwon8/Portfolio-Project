@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(29, 26, 26);
+}
+
+h1 a {
+  color: white;
+  margin-left: 10px;
+  text-decoration:none ;
+}
+
+.toggle li i {
+  color: white;
+  font-size: 25px;
+}
+
+ul {
+  list-style: none;
+}
+
+.content {
+  text-align: left;
+  padding: 10px;
+  background-color: #16100c;
+}
+
+h4 {
+  font-size: 48px;
+  margin: 3px;
+  color: orangered;
+}
+
+p {
+  color: white;
+}
+
+.Dev {
+  font-size: 25px;
+  color: rgb(238, 230, 220);
+}
+
+.icons {
+  display: flex;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: -48px;
+  margin-bottom: 50px;
+}
+
+.fab {
+  color: gray;
+  padding: 0 8px;
+  margin-top: 10px;
+}
+
+.fa-bars {
+  color: gray;
+  padding-right: 10px;
+}
+
+#background {
+  background-image: url("Group.png");
+  height: 250px;
+  background-repeat: no-repeat;
+  margin-left: 166px;
+  position: static;
+  margin-top: -176px;
+}
