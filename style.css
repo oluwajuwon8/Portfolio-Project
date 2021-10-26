@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 header {
@@ -16,7 +16,7 @@ header {
 h1 a {
   color: white;
   margin-left: 10px;
-  text-decoration:none ;
+  text-decoration: none;
 }
 
 .toggle li i {
