@@ -370,44 +370,45 @@ h1 {
   text-align: center;
   line-height: 44px;
   color: #172b4d;
-  margin: 3px;
-  margin-left: 1px;
+  margin: 50px 0 50px 0;
+  padding: 0 20px 0 20px;
 }
 
 .method {
   font-size: 18px;
-  margin-left: 20px;
+  margin: 4930px 40px 0 40px;
   color: #6a717e;
   border-bottom: 1px solid rgb(146, 141, 141);
-  margin-top: 4930px;
+  padding-bottom: 14px;
 }
 
 .email {
   font-size: 18px;
-  margin-left: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
   color: #6a717e;
   border-bottom: 1px solid rgb(146, 141, 141);
   margin-top: 50px;
+  padding-bottom: 14px;
 }
 
-p.groove {
+.groove {
   border-style: groove;
   height: 103px;
   border: rgb(145, 145, 240);
   color: #1d1b19;
-  margin-left: 20px;
+  margin: 36px 40px 0 40px;
   text-align: justify;
   background: #fbf8f7;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   line-height: 24px;
-  margin-right: 20px;
 }
 
 #black {
   padding: 16px 15px;
   margin: 24px 1px;
-  margin-left: 50px;
+  margin-left: 35%;
   margin-bottom: 115px;
   background-color: #f06808;
   color: aliceblue;
@@ -420,6 +421,7 @@ p.groove {
   display: flex;
   font-size: 23px;
   margin-bottom: -7px;
+  justify-content: center;
 }
 
 .fab {
@@ -430,8 +432,7 @@ p.groove {
 
 .shape {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 50%;
   margin-top: 5%;
+  margin-left: 38%;
 }
