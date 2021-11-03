@@ -80,7 +80,7 @@ h1 {
 }
 
 .solid {
-  border-top: 2px solid #bbb;
+  border-top: 2px solid rgb(187, 187, 187);
 }
 
 .pictures {
@@ -359,117 +359,185 @@ h1 {
   margin-bottom: 30px;
 }
 
-.note h3 {
-  font-family: 'Poppins', sans-serif;
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background-color: #fff;
+  align-items: center;
+  margin: 4930px 27px 0 27px;
+}
+
+.text {
+  flex: 1;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
-  position: absolute;
-  left: 0%;
-  top: 5303px;
-  text-align: center;
   line-height: 44px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   color: #172b4d;
-  margin: 50px 0 50px 0;
-  padding: 0 20px 0 20px;
+  height: 216px;
+  margin-top: -86%;
+  letter-spacing: 0.03em;
+  justify-self: center;
+  margin-bottom: -1%;
 }
 
-#black {
-  padding: 16px 15px;
-  margin-left: 30%;
-  margin-bottom: 115px;
+.toll {
+  display: none;
+}
+
+.player {
+  flex: 1;
+  margin-top: 73px;
+}
+
+input {
   border: none;
-  margin-top: 1px;
-  font-size: 18px;
+  border-bottom: 1px solid #dbd8d7;
+  padding-right: 88px;
+  padding-bottom: 14px;
 }
 
-#black:hover {
-  background-color: #f55800;
-  color: white;
+::placeholder {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  height: 18px;
 }
 
-#black:enabled {
+.name {
+  flex: 1;
+  display: flex;
+  padding: 12px 10px 10px 12px;
+  flex-direction: column;
+}
+
+.form {
+  flex: 1;
+  margin-top: 36.5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+textarea {
+  flex: 1;
+  height: 114px;
+  padding: 12px;
+  margin-top: 24px;
+  background-color: #fbf8f7;
+  border: none;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.button_class {
+  flex: 1;
+  padding: 12px;
+  height: 48px;
   background-color: #ff6b00;
-  color: #fbf8f7;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  border: none;
 }
 
-#black:active {
-  background: #5b5957;
+.buttonclub {
+  flex: 1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+}
+
+button:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
+}
+
+button:enabled {
+  background: #f55800;
+}
+
+button:active {
+  background: #e05304;
+  color: #f4f1f0;
+}
+
+button:hover {
+  background: #fff5e1;
+  color: #f55800;
+}
+
+textarea::placeholder {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.spanix1 {
+  height: 5px;
+  margin-right: 52%;
+  margin-top: 73px;
+  max-width: 110%;
 }
 
 .icons {
   display: flex;
   font-size: 23px;
+  margin-right: 14%;
   margin-bottom: -7px;
   justify-content: center;
+  margin-top: 25px;
+  margin-left: auto;
 }
 
-.fab {
-  color: black;
-  padding: 0 8px;
-  margin-top: 5px;
+.iconx-icongroup {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin: 25px;
+  margin-bottom: 0;
+  margin-left: 35%;
+  margin-right: auto;
+}
+
+.githubx {
+  margin-top: 3px;
+  padding-right: 9px;
+}
+
+.iconw3 {
+  margin-top: 3px;
+  padding-right: 9px;
+}
+
+.iconw4 {
+  margin-top: 3px;
+  padding-right: 9px;
+}
+
+.iconw5 {
+  margin-top: 6px;
+  padding-right: 9px;
 }
 
 .shape {
   display: block;
   width: 50%;
+  margin-right: 14%;
   margin-top: 5%;
   margin-left: 38%;
-}
-
-.contact {
-  flex: 1;
-  margin-top: 73px;
-}
-
-.name {
-  display: flex;
-  flex-direction: column;
-  font-size: 18px;
-  width: 250px;
-  padding: 3%;
-  justify-content: center;
-  margin: 4930px 27px 0 27px;
-}
-
-.form {
-  display: flex;
-  font-family: Inter, sans-serif;
-  line-height: 30px;
-  margin-top: 23.5px;
-  font-size: 18px;
-  justify-content: center;
-  border-bottom: 1px solid rgb(146, 141, 141);
-}
-
-.basic {
-  flex: 1;
-  margin-top: 24px;
-  font-family: Inter, sans-serif;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 24px;
-  justify-content: center;
-  padding-bottom: 10px;
-}
-
-#Text {
-  flex: 1;
-  width: 100%;
-  font-family: Inter, sans-serif;
-  border-style: none;
-  background-color: #fbf8f7;
-  line-height: 18px;
-}
-
-input {
-  border: none;
-  height: 18px;
-  line-height: 24px;
-  right: 16px;
-  width: auto;
-  padding: 15px 71px 8px 3px;
-  display: flex;
-  align-items: center;
-  top: calc(50% - 18px / 2);
 }
