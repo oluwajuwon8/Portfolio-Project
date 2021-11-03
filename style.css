@@ -380,10 +380,10 @@ h1 {
   text-align: center;
   color: #172b4d;
   height: 216px;
-  margin-top: -86%;
+  margin-top: -112%;
   letter-spacing: 0.03em;
   justify-self: center;
-  margin-bottom: -1%;
+  margin-bottom: -20%;
 }
 
 .toll {
@@ -399,7 +399,7 @@ input {
   border: none;
   border-bottom: 1px solid #dbd8d7;
   padding-right: 88px;
-  padding-bottom: 14px;
+  padding-bottom: 16px;
 }
 
 ::placeholder {
@@ -487,51 +487,50 @@ textarea::placeholder {
   line-height: 24px;
 }
 
-.spanix1 {
+.border {
   height: 5px;
   margin-right: 52%;
   margin-top: 73px;
   max-width: 110%;
 }
 
-.icons {
-  display: flex;
-  font-size: 23px;
-  margin-right: 14%;
-  margin-bottom: -7px;
-  justify-content: center;
-  margin-top: 25px;
-  margin-left: auto;
-}
-
-.iconx-icongroup {
+.icongroup {
   display: flex;
   flex-direction: row;
-  padding: 10px;
+  align-items: center;
+  padding: 0;
   margin: 25px;
+  height: 40px;
+  left: calc(50% - 200px / 2 + 0.5px);
+  top: calc(50% - 40px / 2);
   margin-bottom: 0;
-  margin-left: 35%;
+  margin-left: 19%;
   margin-right: auto;
 }
 
 .githubx {
   margin-top: 3px;
-  padding-right: 9px;
+  padding-right: 12px;
 }
 
-.iconw3 {
+.linkedinx {
   margin-top: 3px;
-  padding-right: 9px;
+  padding-right: 12px;
 }
 
-.iconw4 {
+.angelistx {
   margin-top: 3px;
-  padding-right: 9px;
+  padding-right: 12px;
 }
 
-.iconw5 {
+.twitterx {
+  margin-top: 3px;
+  padding-right: 12px;
+}
+
+.mediumx {
   margin-top: 6px;
-  padding-right: 9px;
+  padding-right: 12px;
 }
 
 .shape {
@@ -539,5 +538,5 @@ textarea::placeholder {
   width: 50%;
   margin-right: 14%;
   margin-top: 5%;
-  margin-left: 38%;
+  margin-left: 9%;
 }
