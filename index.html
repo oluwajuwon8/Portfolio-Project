@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -132,52 +132,49 @@
     </div>
     </section>
     <br>
-    <div class="note">
-    <h3>
-        I'm always interested in hearing about new projects, so if you'd like to
-        chat please get in
-    </h3>
-    </div>
 
-    <div class="main">
-    <form class="method">
-        <br />
-        Full name
-        <br />
-        <br />
-    </form>
-    </div>
-    <div class="email">
-    <form>
-        Email address <br />
-        <br />
-    </form>
-    </div>
-    <p class="groove">Enter text here</p>
+    <footer class="footer">
+    <h2 class="text">I'm always interested in hearing about new projects, so if you'd like to chat please get in <span class="toll">touch.</span></h2>
+    
+    <form  class="player" action="https://formspree.io/f/xayagqrn" method="post">
+    <ul class="name">
+    <li class="form">
+    <label for="fullName">
+    <input type="text" name="full-name" placeholder="  Full name" maxlength="30" id="fullName" required>
+        </label></li>
+        
+    <li class="form">
+    <label for="email">
+        <input type="email" name="email" id="email" placeholder="  Email address" required>
+        </label></li>
+        
+        <li class="textare">
+        <label for="message">
+        <textarea name="message" id="message" cols="30" rows="6" maxlength="500" placeholder="Enter text here" required></textarea>
+        </label></li>
+    
+    <li class="buttonclub">
+    <button type="submit" class="button_class">Get in touch</button>
+    </li>
+    </ul>
+</form>
 
-    <button id="black" type="submit">Get in touch</button>
+    <div class="border"><img src="img_line-line.png" alt=""></div>
 
-    <hr class="solid" />
+    <ul class="icongroup">
+        <li class="githubx" href="https://www.github.com"><img src="pictures/githreal.svg" alt="Github"></li>
 
-    <ul class="icons">
-    <li>
-        <a href="#"><i class="fab fa-github"></i></a>
-    </li>
-    <li>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-    </li>
-    <li>
-        <a href="#"><i class="fab fa-angellist"></i></a>
-    </li>
-    <li>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-    </li>
-    <li>
-        <a href="#"><i class="fab fa-medium-m"></i></a>
-    </li>
-    </ul> 
+        <li class="linkedinx" href="https://www.linkedin.com/"><img  src="Pictures/linkedreal.svg" alt="linkedin"></li>
+
+        <li class="angelistx" href="https://angel.co/"><img src="Pictures/angelist.svg" alt="angel.co"></li>
+
+        <li class="twitterx" href="https://twitter.com/home"><img src="Pictures/twittereal.svg" alt="twitter"></li>
+
+        <li class="mediumx" href="https://medium.com/"><img src="Pictures/mediumreal.svg" alt="medium.com"></li>
+    </ul>
     <div class="shape">
-        <img src="img_Shape.png" alt="">
+    <img src="img_Shape.png" alt="">
     </div>
+</footer>
 </body>
 </html>
