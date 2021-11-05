@@ -36,7 +36,7 @@ div li {
   list-style-type: none;
 }
 
-.logo a {
+.important a {
   color: #fff;
   text-decoration: none;
 }
@@ -61,6 +61,14 @@ div li {
   line-height: 24px;
   text-align: center;
   margin-left: 10px;
+}
+
+.mv-section-headline {
+  background-color: #1c1a19;
+  background-image: url("image/Group.png");
+  height: 110vh;
+  width: 100%;
+  background-size: cover;
 }
 
 section .mv-main-text {
@@ -231,6 +239,14 @@ section .mv-main-text {
   letter-spacing: 0.03em;
   border: 1px solid transparent;
   outline: none;
+}
+
+.project-2 {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #091e42;
+  background-image: url('image/image.png');
+  background-size: cover;
 }
 
 .mv-project-layout {
@@ -544,7 +560,7 @@ section .mv-main-text {
   bottom: 8px;
 }
 
-@media only screen and (min-width: 990px) and (max-width: 2560px) {
+@media only screen and (min-width: 992px) {
   .pure-nav-list {
     display: none;
   }
