@@ -553,10 +553,9 @@ section .mv-main-text {
   bottom: 8px;
 }
 
-
 @media only screen and (min-width: 990px) and (max-width: 2560px) {
   .pure-nav-list {
-    display: ;
+    display: none;
   }
 
   .nav-list {
@@ -666,9 +665,9 @@ section .mv-main-text {
   }
 
   .placeholder:hover {
-      transform: scale(1.1);
+    transform: scale(1.1);
   }
-  
+
   .ph-1-img {
     margin-left: 100px;
     height: 100%;
