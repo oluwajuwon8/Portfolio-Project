@@ -17,7 +17,6 @@ header {
 .pure-nav-list {
   display: flex;
   justify-content: space-between;
-  justify-content: baseline;
   margin: 10px 10px 10px 10px;
 }
 
