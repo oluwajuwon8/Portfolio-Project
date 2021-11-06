@@ -14,13 +14,26 @@ header {
   margin: 0;
 }
 
+.pure-nav-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px 10px 10px;
+}
+
 .nav-list {
   display: none;
 }
 
-.menu {
-  display: flex;
+a {
+  text-decoration: none;
+}
+
+.menu1 {
   justify-content: end;
+  margin-top: 20px;
+}
+
+.menu {
   width: 35px;
   height: 3px;
   background-color: #acb7c3;
@@ -39,11 +52,6 @@ div li {
 .important a {
   color: #fff;
   text-decoration: none;
-}
-
-.menu1 {
-  margin-top: 30px;
-  margin-right: 10px;
 }
 
 .mv-nav-list {
@@ -582,6 +590,9 @@ section .mv-main-text {
 
   .important {
     margin-left: 60px;
+    transition-duration: 1s;
+    transform: rotate(360deg);
+    color: white;
   }
 
   .nav-list a {
@@ -661,6 +672,15 @@ section .mv-main-text {
     margin: 2px;
     margin-left: 127px;
     color: #091e42;
+  }
+
+  .placeholder {
+    transition-duration: 1.25s;
+    transition-delay: 0.25s;
+  }
+
+  .placeholder:hover {
+    transform: scale(1.1);
   }
 
   .ph-1-img {
@@ -749,6 +769,17 @@ section .mv-main-text {
     width: 50%;
     padding-top: 100px;
     padding-bottom: 50px;
+    transition-duration: 0.75s;
+    transition-delay: 0.25s;
+  }
+
+  button {
+    transition-duration: 1.5s;
+    transition-delay: 0.25s;
+  }
+
+  .footer-text:hover {
+    transform: translate(12px);
   }
 
   .form {
