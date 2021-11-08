@@ -28,12 +28,9 @@ a {
   text-decoration: none;
 }
 
-.menu1 {
-  justify-content: end;
-  margin-top: 20px;
-}
-
 .menu {
+  display: flex;
+  justify-content: end;
   width: 35px;
   height: 3px;
   background-color: #acb7c3;
@@ -68,7 +65,14 @@ div li {
   font-weight: 700;
   line-height: 24px;
   text-align: center;
-  margin-left: 10px;
+}
+
+.mv-section-headline {
+  background-color: #1c1a19;
+  background-image: url("image/Group.png");
+  height: 110vh;
+  width: 100%;
+  background-size: cover;
 }
 
 section .mv-main-text {
@@ -82,7 +86,7 @@ section .mv-main-text {
   bottom: 270px;
 }
 
-.Developer h1 {
+.mv-main-text h1 {
   color: #ff6b00;
   font-family: Crete Round, Arial, Helvetica, sans-serif;
   font-size: 62px;
@@ -91,12 +95,12 @@ section .mv-main-text {
   line-height: 64px;
   letter-spacing: 0.3700000047683716px;
   text-align: left;
-  margin-left: 10px;
+  margin-left: 6px;
   margin-top: 0;
-  padding-top: 60px;
+  padding-top: 178px;
 }
 
-.Developer h3 {
+.mv-main-text h3 {
   position: static;
   width: 327px;
   height: 27px;
@@ -117,7 +121,7 @@ section .mv-main-text {
   margin-left: 10px;
 }
 
-.Developer p {
+.mv-main-text p {
   position: static;
   width: 327px;
   height: 123px;
@@ -552,14 +556,19 @@ section .mv-main-text {
   bottom: 8px;
 }
 
-@media only screen and (min-width: 990px) and (max-width: 2560px) {
-  .pure-nav-list {
+@media only screen and (min-width: 990px) {
+  .my-nav-list {
     display: none;
   }
 
   .nav-list {
     display: flex;
+    margin-right: 25px;
   }
+
+.menu1 {
+  display: none;
+}
 
   .nav-list nav {
     margin-left: 50rem;
@@ -572,7 +581,7 @@ section .mv-main-text {
     margin-left: 70px;
   }
 
-  .important {
+  .logo {
     margin-left: 60px;
     transition-duration: 1s;
     transform: rotate(360deg);
@@ -627,7 +636,6 @@ section .mv-main-text {
 
   .project-section {
     display: flex;
-    margin-top: 87px;
     flex-direction: row;
   }
 
