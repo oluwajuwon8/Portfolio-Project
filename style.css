@@ -38,6 +38,10 @@ a {
   margin-right: 10px;
 }
 
+.menu1 {
+  display: none;
+}
+
 div a {
   text-decoration: none;
 }
@@ -565,10 +569,6 @@ section .mv-main-text {
     display: flex;
     margin-right: 25px;
   }
-
-.menu1 {
-  display: none;
-}
 
   .nav-list nav {
     margin-left: 50rem;

@@ -18,7 +18,7 @@ To get this project in you local machine, follow the steps below:
 - Clone into your local machine
 - Run the project in you browser 
 - Inspect it to check the look in mobile format.
-
+  Have a look at the complete live version of my [portfolio] (https://oluwajuwon8.github.io/Portfolio-Project/).
 
 ## Author
 
@@ -27,8 +27,6 @@ To get this project in you local machine, follow the steps below:
 - GitHub: [@githubhandle](https://github.com/oluwajuwon8)
 - Twitter: [@twitterhandle](https://twitter.com/oluwafu87040629)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/showole-azeezat-omolola-4368a7ba/)
-
-
 
 ## 🤝 Contributing
 
