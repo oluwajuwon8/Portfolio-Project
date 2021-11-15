@@ -6,7 +6,52 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.sidebar {
+  height: 90%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #3c3a39;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  display: block;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: #fff5e1;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background: #3c3a39;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
 }
 
 header {
@@ -62,7 +107,7 @@ div li {
 .mv-nav-list h4 {
   color: #fff;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -114,7 +159,7 @@ section .mv-main-text {
   height: 27px;
   left: 24px;
   top: 256px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -257,7 +302,7 @@ section .mv-main-text {
   margin-left: 20px;
   margin-right: 20px;
   color: #091e42;
-  background-image: url('image/image.png');
+  background-image: url("image/image.png");
   background-size: cover;
 }
 
@@ -710,7 +755,7 @@ section .mv-main-text {
     margin-left: 20px;
     margin-right: 20px;
     color: #091e42;
-    background-image: url('image/image.png');
+    background-image: url("image/image.png");
     background-size: cover;
   }
 
