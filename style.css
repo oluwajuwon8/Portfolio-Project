@@ -71,6 +71,10 @@ div li {
   margin-left: 10px;
 }
 
+.section-headline {
+  background-color: #1c1a19;
+}
+
 .mv-section-headline {
   background-color: #1c1a19;
   background-image: url("image/Group.png");
@@ -93,7 +97,7 @@ section .mv-main-text {
 .Developer h1 {
   color: #ff6b00;
   font-family: Crete Round, Arial, Helvetica, sans-serif;
-  font-size: 62px;
+  font-size: 58px;
   font-style: normal;
   font-weight: normal;
   line-height: 64px;
@@ -249,7 +253,7 @@ section .mv-main-text {
   outline: none;
 }
 
-.project-2 {
+.centered {
   margin-left: 20px;
   margin-right: 20px;
   color: #091e42;
