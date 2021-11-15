@@ -18,17 +18,18 @@
             <nav>
                 <div id="mySidebar" class="sidebar">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                    <a href="#">Portfolio</a>
-                    <a href="#">About</a>
-                    <a href="#">Contact</a>
+
+                    <a href="#recentWork" id="portfolio" onclick="hidenavblock()">Portfolio</a >
+
+                    <a href="#aboutMe" id="about" onclick="hidenavblock()">About</a>
+                    <a href="#footel" id="contact" onclick="hidenavblock()">Contact</a>
                 </div>
-                
                 <div id="main">
-                  <button class="openbtn" onclick="openNav()">☰</button>  
+                <button class="openbtn" onclick="openNav()">☰</button>  
                 </div>
-                
             </nav>
             </div>
+
         <div class="nav-list">
         <h4 class="important"><a href="#">Azeezat</a></h4>
         <nav>
@@ -63,7 +64,7 @@
         
 <section class="project-container">
     <div class="project-section">
-    <h1>My Recent Works</h1>
+    <h1 id="recentWork">My Recent Works</h1>
     <hr class="horizontal-line-1 mv-horizontal-line-1">
     </div>
     <div class="project-1">
@@ -185,7 +186,7 @@
     </div>
     </section>
 
-    <section class="about-me-section">
+    <section class="about-me-section" id="aboutMe">
     <div class="about-me-container">
     <div class="about-headline">
     <div class="about-me">
@@ -257,7 +258,7 @@
     </section>
     <section>
 
-    <footer class="footer">
+    <footer class="footer" id="footel">
     <div class="footer-container">
     <div class="footer-text">
     <h3>I'm always interested in hearing about new projects, 
