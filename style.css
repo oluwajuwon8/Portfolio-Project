@@ -63,11 +63,16 @@ header {
   margin: 0;
 }
 
+.navx {
+  padding-right: 4%;
+}
+
 .pure-nav-list {
   display: flex;
+  padding-left: 3%;
   justify-content: space-between;
   margin-left: 10px;
-  margin-right: 10px;
+  padding-right: 4%;
 }
 
 .nav-list {
@@ -100,7 +105,7 @@ div li {
   color: #fff;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
@@ -134,9 +139,10 @@ section .mv-main-text {
 .Developer h1 {
   color: #ff6b00;
   font-family: Crete Round, Arial, Helvetica, sans-serif;
-  font-size: 58px;
+  font-size: 55px;
   font-style: normal;
   font-weight: normal;
+  padding-left: 5px;
   line-height: 64px;
   letter-spacing: 0.3700000047683716px;
   text-align: left;
@@ -184,6 +190,10 @@ section .mv-main-text {
   margin-left: 10px;
 }
 
+.recent {
+  padding-left: 6%;
+}
+
 .mv-social-media i {
   color: #e4e1e0;
 }
@@ -216,6 +226,7 @@ section .mv-main-text {
 .mv-social-media-icons {
   display: flex;
   width: 52%;
+  padding-bottom: 5%;
   justify-content: space-between;
 }
 
