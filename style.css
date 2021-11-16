@@ -17,6 +17,10 @@ div a {
   text-decoration: none;
 }
 
+.hamgmenu {
+  padding-top: 2rem;
+}
+
 .navblock {
   background-color: #3c3a39;
   height: 100%;
@@ -67,11 +71,6 @@ header {
 
 .nav-list {
   display: none;
-}
-
-.menu1 {
-  justify-content: end;
-  margin-top: 20px;
 }
 
 .menu {

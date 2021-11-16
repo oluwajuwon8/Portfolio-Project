@@ -6,18 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1PBGHJN2YD"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-1PBGHJN2YD');
+</script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <!-- Mobile header -->
 <header>
     <div class="pure-nav-list">
     <h4 class="important"><a href="#">Azeezat</a></h4>
     <div class="navblock" id="side-bar">
     <a href="javascript:void(0)" class="closebtn" id="closeNav"><img src="image/close.svg" alt="close" /></a>
-    <a href="#recentWork" class="navlinkclass" id="portfolio">Portoflio</a >
+    <a href="#recentWork" class="navlinkclass" id="portfolio">Portfolio</a >
     <a href="#aboutMe" class="navlinkclass" id="about">About</a>
     <a href="#footer" class="navlinkclass" id="contact">Contact</a>
     </div>
@@ -26,6 +38,7 @@
     </nav>
     </div>
 
+    <!-- Desktop header -->
     <div class="nav-list">
     <h4 class="important"><a href="#">Azeezat</a></h4>
     <nav>
@@ -38,7 +51,7 @@
     </nav>
     </div>
     </header>
-
+    <!-- Headline Text -->
     <main>
     <section class="section-headline">
     <div class="main-text Developer">
@@ -48,6 +61,7 @@
     <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
     </div>
 
+    <!-- headline icons -->
     <ul class=" social-media social-media-icons mv-social-media mv-social-media-icons">
     <li class="social-1"><a href="#"><i class="fab fa-github fa-lg"></i></a></li>
     <li class="social-2"><a href="#"><i class="fab fa-linkedin-in fa-lg"></i></a></li>
@@ -57,7 +71,8 @@
     </ul>
     </div>
     </section>
-        
+    
+    <!-- My recent works -->
 <section class="project-container">
     <div class="project-section">
     <h1 id="recentWork">My Recent Works</h1>
@@ -182,6 +197,7 @@
     </div>
     </section>
 
+    <!-- My About section -->
     <section class="about-me-section" id="aboutMe">
     <div class="about-me-container">
     <div class="about-headline">
@@ -253,7 +269,8 @@
     </div>
     </section>
     <section>
-
+    
+    <!-- My form section -->
     <footer class="footer" id="footel">
     <div class="footer-container">
     <div class="footer-text">
