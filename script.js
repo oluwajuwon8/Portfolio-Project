@@ -6,6 +6,7 @@ hamburgerMenu.addEventListener('click', () => {
 const closeNavBlock = document.getElementById('closeNav');
 closeNavBlock.addEventListener('click', () => {
   document.getElementById('side-bar').style.display = 'none';
+  window.location.reload();
 });
 
 const openNavlink = document.getElementById('portfolio');

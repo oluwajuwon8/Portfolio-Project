@@ -18,7 +18,7 @@ div a {
 }
 
 .hamgmenu {
-  padding-top: 2rem;
+  padding-top: 1.8rem;
 }
 
 .navblock {
@@ -66,7 +66,8 @@ header {
 .pure-nav-list {
   display: flex;
   justify-content: space-between;
-  margin: 10px 10px 10px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .nav-list {
