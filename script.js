@@ -1,19 +1,27 @@
-function openNav() {
-  document.getElementById("mySidebar").style.width = "320px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
+const hamburgerMenu = document.getElementById('hamNenu');
+hamburgerMenu.addEventListener('click', () => {
+  document.getElementById('side-bar').style.width = '100%';
+});
 
-function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-}
+const closeNavBlock = document.getElementById('closeNav');
+closeNavBlock.addEventListener('click', () => {
+  document.getElementById('side-bar').style.display = 'none';
+});
 
-function hidenavblock() {
-  const x = document.getElementById('mySidebar');
-  if (x.style.display === 'none') {
-  x.style.display = 'block';
-} else {
-  x.style.display = 'none';
-}
+const openNavlink = document.getElementById('portfolio');
+openNavlink.addEventListener('click', () => {
+  document.getElementById('side-bar').style.display = 'none';
   window.location.reload();
-}
+});
+
+const openlinkAbout = document.getElementById('about');
+openlinkAbout.addEventListener('click', () => {
+  document.getElementById('side-bar').style.display = 'none';
+  window.location.reload();
+});
+
+const openlinkContact = document.getElementById('contact');
+openlinkContact.addEventListener('click', () => {
+  document.getElementById('side-bar').style.display = 'none';
+  window.location.reload();
+});
