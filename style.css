@@ -15,8 +15,23 @@ li {
 body {
   margin: 0;
   padding: 0;
+  max-width: 100%;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #fff;
 }
 
 a {
@@ -123,15 +138,26 @@ div li {
   margin-left: 10px;
 }
 
+.popupBlocDesktop {
+  display: none;
+}
+
 .popupclass {
-  display: flex;
+  display: none;
+  position: fixed;
+  overflow: auto;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
   max-width: 100%;
+  max-height: 100%;
   padding-top: 12%;
   padding-bottom: 221px;
   padding-left: 4%;
   padding-right: 4%;
-  justify-content: center;
-  background-color: rgba(32, 30, 30, 0.8);
+   background-color: rgba(0, 0, 0, 0.8);
 }
 
 .note {
@@ -165,7 +191,7 @@ div li {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 0.8em;
+  font-size: 1.5em;
   line-height: 44px;
   color: #172b4d;
 }
@@ -180,7 +206,7 @@ div li {
   display: flex;
   flex-direction: row;
   padding-bottom: 29px;
-  width: 100%;
+  width: 80%;
 }
 
 .bambam {
@@ -188,8 +214,9 @@ div li {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 0.5em;
+  font-size: 0.6em;
   width: 16%;
+  height: 100%;
   border: 1px solid #979493;
   text-align: center;
   margin-right: 4%;
@@ -200,9 +227,10 @@ div li {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 0.5em;
+  font-size: 0.6em;
   border: 1px solid #979493;
   width: 25%;
+  height: 100%;
   text-align: center;
   margin-right: 4%;
 }
@@ -212,15 +240,11 @@ div li {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 0.5em;
+  font-size: 0.6em;
   text-align: center;
   width: 35%;
+  height: 100%;
   border: 1px solid #979493;
-}
-
-.placemen {
-  flex: 1;
-  max-width: 100%;
 }
 
 .imagetxtclass {
@@ -1032,162 +1056,184 @@ section .mv-main-text {
     display: none;
   }
 
-  .plan {
-    position: static;
-    width: 1056px;
-    height: 40px;
-    margin-left: 15px;
-    top: 1px;
-    color: #172b4d;
-    font-family: Crete Round, sans-serif;
+  button:enabled {
+    background: #f55800;
+  }
+  
+  button:hover {
+    background: #fff5e1;
+    color: #f55800;
+    font-size: 20px;
+  }
+  
+  button:active {
+    background: #e05304;
+    color: #f4f1f0;
+  }
+  
+  button:disabled {
+    background: #f4f1f0;
+    color: #5b5957;
+  }
+
+  .popupclass {
+    display: none;
+  }
+
+  .popupBlocDesktop {
+    display: none;
+    overflow: auto;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    max-width: 100%;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .blockDesktop {
+    display: flex;
+    max-width: 80%;
+    min-height: 631px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2.076%;
+    background-color: #fff;
+    padding-bottom: 7%;
+    padding-right: 2.076%;
+  }
+
+  .textImageclas {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    padding-right: 2%;
+  }
+
+  .textTitleDeskclas {
+    flex: 1;
+    font-family: Crete Round, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 32px;
+    font-size: 2em;
     line-height: 44px;
   }
 
-  .listen {
+  .closePopupclas {
+    flex: 1;
+    max-width: 2%;
+  }
+
+  .listDesktop {
+    flex: 1;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 1px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 12px 1px;
-    position: static;
-    width: 294px;
-    padding-bottom: 5%;
-    height: 40px;
-    left: 1px;
-    top: 52px;
+    margin-bottom: 3%;
   }
 
-  .tracks {
+  .itemDesktop{
+    flex: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8125em;
+    padding: 1% 1% 2% 1%;
+    line-height: 16px;
+    outline: 1px solid black;
+    margin-right: 1%;
+    text-align: center;
+    height: 19%;
+  }
+
+  .listOneDesk {
+    max-width: 5%;
+  }
+
+  .listwoDesk {
+    max-width: 10%;
+  }
+
+  .listhreeDesk {
+    max-width: 15%;
+  }
+
+  .desktopimageclas {
+    flex: 1;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 5px 6px;
-    border: 1px solid #979493;
-    box-sizing: border-box;
-    position: static;
-    left: 0%;
-    font-size: 23px;
-    right: 79.93%;
-    top: 0%;
-    bottom: 0%;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 1px 8px;
   }
 
-  .less {
+  .pictureScreenclass {
+    flex: 1;
+    max-width: 60%;
+    margin-right: 25px;
+  }
+
+  .textsBlockDeskclas {
+    flex: 1;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5px 6px;
-    border: 1px solid #979493;
-    box-sizing: border-box;
-    position: static;
-    left: 22.79%;
-    right: 43.54%;
-    font-size: 23px;
-    top: 0%;
-    bottom: 0%;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 1px 8px;
+    flex-direction: column;
+    margin-top: 0;
+    padding-top: 0;
   }
 
-  .names {
+  .buttonDesktopclas {
+    flex: 1;
     display: flex;
-    flex-direction: row;
+    max-width: 100%;
+  }
+
+  .buttonOneDeskclas {
+    flex: 1;
+    height: 48px;
+    max-width: 130px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
     align-items: center;
-    padding: 5px 6px;
-    border: 1px solid #979493;
-    box-sizing: border-box;
-    position: static;
-    font-size: 23px;
-    left: 59.18%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    margin: 1px 8px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    border: none;
   }
 
-  .modula {
-    position: absolute;
-    width: 659px;
-    height: 448px;
-    padding-bottom: 50px;
-    left: 25px;
+  .imageDesktopbtn {
+    margin-left: 15%;
   }
 
-  .reuseable {
+  .buttonTwoDeskclas {
+    flex: 1;
+    height: 48px;
+    max-width: 149px;
+    margin-left: 3%;
     font-family: Inter, sans-serif;
     font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    color: #344563;
-    margin: 12px 685px;
-    height: 336px;
-    top: 1px;
-    position: static;
-    width: 420px;
-  }
-
-  .feed {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 12px;
-    background: #f55800;
-    color: #fff;
+    font-weight: bold;
     font-size: 17px;
-    border: none;
-    position: absolute;
-    width: 134px;
-    height: 48px;
-    left: 708px;
-  }
-
-  .colla {
-    position: static;
-    left: 73.13%;
-    right: 8.96%;
-    top: 25%;
-    bottom: 25%;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 1px 12px;
-  }
-
-  .collapse {
+    line-height: 24px;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 12px;
-    background: #f55800;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: #fff;
-    font-size: 17px;
     border: none;
-    position: absolute;
-    width: 159px;
-    height: 48px;
-    left: 849px;
   }
 
-  .paper {
-    position: absolute;
-    padding-left: 99px;
-    top: 25%;
-    bottom: 5%;
+  .imageDeskbutton {
+    margin-left: 9%;
   }
+
+  .popupclass {
+    display: none;
+  }
+
 }
