@@ -225,7 +225,7 @@ section .mv-main-text {
   padding-right: 4%;
   top: 1px;
   align-items: center;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 1.5em;
@@ -244,7 +244,7 @@ section .mv-main-text {
 .poptitleclass {
   flex: 1;
   width: 100%;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 1.5em;
@@ -267,7 +267,7 @@ section .mv-main-text {
 
 .bambam {
   flex: 1;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 0.6em;
@@ -280,7 +280,7 @@ section .mv-main-text {
 
 .banban {
   flex: 1;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 0.6em;
@@ -293,7 +293,7 @@ section .mv-main-text {
 
 .lome {
   flex: 1;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 0.6em;
@@ -313,7 +313,7 @@ section .mv-main-text {
 .lorem {
   flex: 1;
   max-width: 100%;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 24px;
@@ -360,6 +360,7 @@ section .mv-main-text {
 .transfer {
   margin-left: 4%;
 }
+
 .mv-social-media i {
   color: #e4e1e0;
 }
@@ -1091,9 +1092,9 @@ section .mv-main-text {
     margin-bottom: 3%;
   }
 
-  .itemDesktop {
+  .itemDesktop{
     flex: 1;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 0.8125em;
@@ -1147,7 +1148,7 @@ section .mv-main-text {
     flex: 1;
     height: 48px;
     max-width: 130px;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 17px;
