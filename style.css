@@ -1039,10 +1039,6 @@ section .mv-main-text {
     display: none;
   }
 
-  .popupclass {
-    display: none;
-  }
-
   .popupBlocDesktop {
     display: none;
     overflow: auto;
@@ -1100,7 +1096,7 @@ section .mv-main-text {
     margin-bottom: 3%;
   }
 
-  .itemDesktop{
+  .itemDesktop {
     flex: 1;
     font-family: 'Poppins', sans-serif;
     font-style: normal;

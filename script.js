@@ -161,7 +161,6 @@ popUpWindowObject.images = popUpImageArr;
 popUpWindowObject.button = ButtonArr;
 popUpWindowObject.Text = textArray;
 
-
 const popUpmenu = document.getElementById('popupid');
 const buttonTag = document.getElementById('projects1');
 const projectLink1 = document.getElementById('projects2');
@@ -321,7 +320,7 @@ const popUpImagArrDesk = [];
 popUpImagArrDesk.push(closePopupWindow);
 popUpImagArrDesk.push(pictureScreen);
 popUpImagArrDesk.push(buttonimgageDesktop);
-popUpImagArrDesk.push(buttonimgTwoDesk );
+popUpImagArrDesk.push(buttonimgTwoDesk);
 
 const arrayDesktopButton = [];
 arrayDesktopButton.push(buttonOneDesk);
@@ -394,7 +393,6 @@ projectDeskArr[6].onclick = function popUpWindowDesk5() {
 projectDeskArr[7].onclick = function popUpWindowDesk6() {
   popUpmenuDesk.style.display = 'block';
 };
-
 
 window.addEventListener('resize', () => {
   if (window.innerWidth > 902) {
