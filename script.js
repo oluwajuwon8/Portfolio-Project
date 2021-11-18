@@ -121,3 +121,77 @@ popUpImageArr.push(image);
 popUpImageArr.push(icon);
 popUpImageArr.push(icons);
 
+const ButtonArr = [];
+ButtonArr.push(buttonone);
+ButtonArr.push(btn);
+
+ButtonArr[0].onclick = function redirecting() {
+  window.location.href = 'https://oluwajuwon8.github.io/Portfolio-Project/';
+};
+
+ButtonArr[1].onclick = function redirect() {
+  window.location.href = 'https://github.com/oluwajuwon8/Portfolio-Project';
+};
+
+const textArray = [];
+textArray.push(popupTitle);
+textArray.push(popupText);
+
+const popUpWindowObject = {};
+popUpWindowObject.htmlelement = popUpWindowArray;
+popUpWindowObject.images = popUpImageArr;
+popUpWindowObject.button = ButtonArr;
+popUpWindowObject.Text = textArray;
+
+
+const popUpmenu = document.getElementById('popupid');
+const buttonTag = document.getElementById('projects1');
+const projectLink1 = document.getElementById('projects2');
+const projectLink2 = document.getElementById('projects3');
+const projectLink3 = document.getElementById('projects4');
+const projectLink4 = document.getElementById('projects5');
+const projectLink5 = document.getElementById('projects6');
+const projectLink6 = document.getElementById('projects7');
+
+const projectArr = [];
+projectArr.push(popUpmenu);
+projectArr.push(buttonTag);
+projectArr.push(projectLink1);
+projectArr.push(projectLink2);
+projectArr.push(projectLink3);
+projectArr.push(projectLink4);
+projectArr.push(projectLink5);
+projectArr.push(projectLink6);
+
+document.querySelector('#closeiconid').addEventListener('click', () => {
+  document.querySelector('.popupclass').style.display = 'none';
+});
+
+projectArr[1].onclick = function popUpWindow() {
+  popUpmenu.style.display = 'block';
+};
+
+projectArr[2].onclick = function popUpWindow1() {
+  popUpmenu.style.display = 'block';
+};
+
+projectArr[3].onclick = function popUpWindow2() {
+  popUpmenu.style.display = 'block';
+};
+
+projectArr[4].onclick = function popUpWindow3() {
+  popUpmenu.style.display = 'block';
+};
+
+projectArr[5].onclick = function popUpWindow4() {
+  popUpmenu.style.display = 'block';
+};
+
+projectArr[6].onclick = function popUpWindow5() {
+  popUpmenu.style.display = 'block';
+};
+
+projectArr[7].onclick = function popUpWindow6() {
+  popUpmenu.style.display = 'block';
+};
+
