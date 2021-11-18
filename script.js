@@ -108,7 +108,7 @@ buttonone.className = 'orang';
 buttonblock.appendChild(buttonone);
 
 const icon = document.createElement('img');
-icon.src = 'image/icon.svg';
+icon.src = 'image/icon-see.svg';
 icon.id = 'load';
 icon.className = 'loader';
 buttonone.appendChild(icon);
@@ -120,7 +120,7 @@ btn.className = 'patten';
 buttonblock.appendChild(btn);
 
 const icons = document.createElement('img');
-icons.src = 'image/icons.png';
+icons.src = 'image/second-icon.png';
 icons.id = 'network';
 icons.className = 'transfer';
 btn.appendChild(icons);
@@ -293,7 +293,7 @@ buttonOneDesk.textContent = 'See Live';
 buttonDesktop.appendChild(buttonOneDesk);
 
 const buttonimgageDesktop = document.createElement('img');
-buttonimgageDesktop.src = 'pictures/arrow.svg';
+buttonimgageDesktop.src = 'image/arrow.svg';
 buttonimgageDesktop.className = 'imageDesktopbtn';
 buttonOneDesk.appendChild(buttonimgageDesktop);
 
@@ -304,7 +304,7 @@ buttonTwoDesk.textContent = 'See Source';
 buttonDesktop.appendChild(buttonTwoDesk);
 
 const buttonimgTwoDesk = document.createElement('img');
-buttonimgTwoDesk.src = 'pictures/githubpopup.svg';
+buttonimgTwoDesk.src = 'image/githubpopup.svg';
 buttonimgTwoDesk.className = 'imageDeskbutton';
 buttonTwoDesk.appendChild(buttonimgTwoDesk);
 
