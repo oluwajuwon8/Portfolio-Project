@@ -66,3 +66,58 @@ listchild3.id = 'lone';
 listchild3.className = 'lome';
 list.appendChild(listchild3);
 
+const image = document.createElement('img');
+image.src = 'image/mobile.png';
+image.id = 'placement';
+image.className = 'placemenImage';
+imageTextblock.appendChild(image);
+
+const popupText = document.createElement('p');
+popupText.textContent = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent";
+popupText.id = 'ipsum';
+popupText.className = 'lorem';
+imageTextblock.appendChild(popupText);
+
+const buttonblock = document.createElement('div');
+buttonblock.id = 'blank';
+buttonblock.className = 'create';
+popUp.appendChild(buttonblock);
+
+const buttonone = document.createElement('button');
+buttonone.textContent = 'See Live';
+buttonone.id = 'orange';
+buttonone.className = 'orang';
+buttonblock.appendChild(buttonone);
+
+const icon = document.createElement('img');
+icon.src = 'image/icon.svg';
+icon.id = 'load';
+icon.className = 'loader';
+buttonone.appendChild(icon);
+
+const btn = document.createElement('button');
+btn.textContent = 'see source';
+btn.id = 'path';
+btn.className = 'patten';
+buttonblock.appendChild(btn);
+
+const icons = document.createElement('img');
+icons.src = 'image/icons.png';
+icons.id = 'network';
+icons.className = 'transfer';
+btn.appendChild(icons);
+
+const popUpWindowArray = [];
+popUpWindowArray.push(popUpblack);
+popUpWindowArray.push(popUp);
+popUpWindowArray.push(popTextdiv);
+popUpWindowArray.push(imageTextblock);
+popUpWindowArray.push(list);
+popUpWindowArray.push(buttonblock);
+
+const popUpImageArr = [];
+popUpImageArr.push(closeicon);
+popUpImageArr.push(image);
+popUpImageArr.push(icon);
+popUpImageArr.push(icons);
+
