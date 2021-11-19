@@ -1021,6 +1021,21 @@ section .mv-main-text {
     width: 23%;
   }
 
+  #small {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  color: red;
+}
+
+.showMessage {
+  display: none;
+}
+.showSuccess {
+  display: none;
+}
+
   .horizontal-line-3 {
     width: 100%;
     margin-top: 150px;
