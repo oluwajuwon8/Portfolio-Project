@@ -238,7 +238,6 @@ getInTouchMobile.onclick = function validateEmailMobile() {
   return emailVal;
 };
 
-
 // desktop popup //
 
 const popupBlockDesktop = document.createElement('div');
@@ -451,5 +450,3 @@ butGetIn.onclick = function validateEmail() {
   }
   return emailValue;
 };
-
-
