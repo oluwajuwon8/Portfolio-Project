@@ -1164,8 +1164,7 @@ li small {
     border-bottom: 1px solid #dbd8d7;
     width: 93%;
     padding-bottom: 14px;
-
-  }
+}
 
   textarea::placeholder {
     font-family: Inter, sans-serif;
@@ -1193,10 +1192,6 @@ li small {
   .lastx {
     flex: 1;
     padding: 0;
-  }
-
-  input {
-    padding-bottom: 14px;
   }
 
   input:focus {
@@ -1244,191 +1239,192 @@ li small {
   }
 
   #small {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1rem;
-  color: red;
-}
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    color: red;
+  }
 
-.showMessage {
-  display: none;
-}
-.showSuccess {
-  display: none;
-}
+  .showMessage {
+    display: none;
+  }
 
-.horizontal-line-3 {
-  width: 100%;
-  margin-top: 150px;
-  border-top: 1px solid #c0a69d;
-}
+  .showSuccess {
+    display: none;
+  }
 
-.social-media-footer {
-  display: flex;
-  flex-direction: row;
-  width: 15%;
-  justify-content: space-between;
-  margin-left: 560px;
-}
+  .horizontal-line-3 {
+    width: 100%;
+    margin-top: 150px;
+    border-top: 1px solid #c0a69d;
+  }
 
-.horizontal-line-4 {
-  display: none;
-}
+  .social-media-footer {
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    justify-content: space-between;
+    margin-left: 560px;
+  }
 
-.popupBlocDesktop {
-  display: none;
-  overflow: auto;
-  width: 100%;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  position: fixed;
-  max-width: 100%;
-  padding-top: 112px;
-  padding-bottom: 112px;
-  background-color: rgba(0, 0, 0, 0.8);
-}
+  .horizontal-line-4 {
+    display: none;
+  }
 
-.blockDesktop {
-  display: flex;
-  max-width: 80%;
-  min-height: 631px;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 2.076%;
-  background-color: #fff;
-  padding-bottom: 7%;
-  padding-right: 2.076%;
-}
+  .popupBlocDesktop {
+    display: none;
+    overflow: auto;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    max-width: 100%;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
 
-.textImageclas {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  padding-right: 2%;
-}
+  .blockDesktop {
+    display: flex;
+    max-width: 80%;
+    min-height: 631px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2.076%;
+    background-color: #fff;
+    padding-bottom: 7%;
+    padding-right: 2.076%;
+  }
 
-.textTitleDeskclas {
-  flex: 1;
-  font-family: Crete Round, serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 2em;
-  line-height: 44px;
-}
+  .textImageclas {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    padding-right: 2%;
+  }
 
-.closePopupclas {
-  flex: 1;
-  max-width: 2%;
-}
+  .textTitleDeskclas {
+    flex: 1;
+    font-family: Crete Round, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    line-height: 44px;
+  }
 
-.listDesktop {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 3%;
-}
+  .closePopupclas {
+    flex: 1;
+    max-width: 2%;
+  }
 
-.itemDesktop {
-  flex: 1;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 0.8125em;
-  padding: 1% 1% 2% 1%;
-  line-height: 16px;
-  outline: 1px solid black;
-  margin-right: 1%;
-  text-align: center;
-  height: 19%;
-}
+  .listDesktop {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3%;
+  }
 
-.listOneDesk {
-  max-width: 5%;
-}
+  .itemDesktop {
+    flex: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8125em;
+    padding: 1% 1% 2% 1%;
+    line-height: 16px;
+    outline: 1px solid black;
+    margin-right: 1%;
+    text-align: center;
+    height: 19%;
+  }
 
-.listwoDesk {
-  max-width: 10%;
-}
+  .listOneDesk {
+    max-width: 5%;
+  }
 
-.listhreeDesk {
-  max-width: 15%;
-}
+  .listwoDesk {
+    max-width: 10%;
+  }
 
-.desktopimageclas {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-}
+  .listhreeDesk {
+    max-width: 15%;
+  }
 
-.pictureScreenclass {
-  flex: 1;
-  max-width: 60%;
-  margin-right: 25px;
-}
+  .desktopimageclas {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+  }
 
-.textsBlockDeskclas {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  margin-top: 0;
-  padding-top: 0;
-}
+  .pictureScreenclass {
+    flex: 1;
+    max-width: 60%;
+    margin-right: 25px;
+  }
 
-.buttonDesktopclas {
-  flex: 1;
-  display: flex;
-  max-width: 100%;
-}
+  .textsBlockDeskclas {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding-top: 0;
+  }
 
-.buttonOneDeskclas {
-  flex: 1;
-  height: 48px;
-  max-width: 130px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #fff;
-  border: none;
-}
+  .buttonDesktopclas {
+    flex: 1;
+    display: flex;
+    max-width: 100%;
+  }
 
-.imageDesktopbtn {
-  margin-left: 15%;
-}
+  .buttonOneDeskclas {
+    flex: 1;
+    height: 48px;
+    max-width: 130px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    border: none;
+  }
 
-.buttonTwoDeskclas {
-  flex: 1;
-  height: 48px;
-  max-width: 149px;
-  margin-left: 3%;
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #fff;
-  border: none;
-}
+  .imageDesktopbtn {
+    margin-left: 15%;
+  }
 
-.imageDeskbutton {
-  margin-left: 9%;
-}
+  .buttonTwoDeskclas {
+    flex: 1;
+    height: 48px;
+    max-width: 149px;
+    margin-left: 3%;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    border: none;
+  }
 
-.popupclass {
-  display: none;
-}
-}
+  .imageDeskbutton {
+    margin-left: 9%;
+  }
+
+  .popupclass {
+    display: none;
+  }
+  }
