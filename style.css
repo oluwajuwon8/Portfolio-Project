@@ -1164,7 +1164,7 @@ li small {
     border-bottom: 1px solid #dbd8d7;
     width: 93%;
     padding-bottom: 14px;
-}
+  }
 
   textarea::placeholder {
     font-family: Inter, sans-serif;
@@ -1427,4 +1427,4 @@ li small {
   .popupclass {
     display: none;
   }
-  }
+}
