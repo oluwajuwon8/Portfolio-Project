@@ -271,20 +271,75 @@
     <section>
     
     <!-- My form section -->
-    <footer class="footer" id="footel">
-    <div class="footer-container">
-    <div class="footer-text">
-    <h3>I'm always interested in hearing about new projects, 
-    so if you'd like to chat please get in touch.</h3>
+    <footer class="footers" id="footel">
+    <div class="footers-container">
+    <div class="footers-tex" id="getFormx">
+    <h3>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
     </div>
-
-    <form class="form" action="https://formspree.io/f/mzbyqobv" method="post">
-    <input class="flex-item flex-item-1" type="text" name="name" placeholder="Full name" maxlength="30" required>
-    <input class="flex-item flex-item-2" type="email" name="Email" placeholder="Email address" required>
-    <textarea class="flex-item flex-item-3" placeholder="Enter text here" name="Message" maxlength="500" required></textarea>
-    <button class="form-btn btn" type="submit">Get in touch</button>
+    <form class="formx mobilefo" id="mobileForm" action="https://formspree.io/f/xayagqrn" method="post">
+        <ul class="formul">
+        <li class="for">
+            <label for="fullName" class="form-control">
+            <input type="text" name="full-name" placeholder="  Full name" maxlength="30" id="fullName" required>
+            </label>
+        </li>
+        <li class="for">
+            <label for="email" class="form-control">
+                <input type="email" name="email" id="email" placeholder="  Email address" required>
+                <i class="fas fa-check-circle" id="circleMo"></i> <i class="fas fa-times" id="timeMo"></i>
+            </label>
+            </li>
+        <li class="textare">
+            <label for="message">
+            <textarea
+            name="message" id="message" cols="30" rows="6" maxlength="500" placeholder="Enter text here" required></textarea>
+            </label>
+        </li>
+        <li><small id="errorMobile">The email address must contain only lowercase letters.</small></li>
+        <li class="buttonsub">
+            <button type="submit" class="button_form" id="getInTouch">Get in touch</button>
+        </li>
+        </ul>
     </form>
     </div>
+</footer>
+    <footer class="footer desktofooter" id="foote">
+        <div class="footer-container">
+        <div class="footer-text" id="getForm">
+        <h3>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
+    </div>
+    <div class="formdesktop">
+    <form class="formx" id="form"  action="https://formspree.io/f/xayagqrn" method="post">
+        <ul class="formul">
+            <li class="for for1 form-control">
+            <label for="fullNameDesk" class="full form-control">
+            <input type="text" name="full-name" placeholder="   First name" maxlength="30" id="fullNameDesk" required>
+            </label>
+            <label for="lastName" class="lastx form-control success">
+            <input type="text" name="last-name" placeholder="  Last name" maxlength="30" id="lastName" required>
+        
+            </label>
+            </li>
+            <li class="for" >
+            <label for="emaildesk" class="eml form-control error">
+            <input type="email" required name="email" id="emaildesk" placeholder="Email address">
+            <i class="fas fa-check-circle circle" id="circle"></i> <i class="fas fa-times time" id="time"></i></label>
+            </li>
+            <li class="textare">
+            <label for="messagedesk">
+            <textarea name="message" id="messagedesk" cols="30" rows="6" maxlength="500" placeholder="Enter text here" required></textarea>
+            </label>
+            </li>
+            <li><small id="errorText">The email address must contain only lowercase letters.</small></li>
+            <li class="buttonsub">
+            <button type="submit" class="button_form" id="getIn">Get in touch</button>
+            </li>
+        </ul>
+    </form>
+</div>
+</div>
+    </footer>
+
     <div><hr class="horizontal-line-3 mv-horizontal-line-3"></div>
 
     <div class="social-media footer">
@@ -298,7 +353,7 @@
     <div>
     <hr class="horizontal-line-4 mv-horizontal-line-4">
     </div>
-    </footer>
+
     </section>
     </main>
     <script src="script.js"></script>
