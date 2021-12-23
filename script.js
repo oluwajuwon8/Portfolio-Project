@@ -427,6 +427,8 @@ window.addEventListener('resize', () => {
   }
 });
 
+// Validation //
+
 const butGetIn = document.getElementById('getIn');
 const butGetform = document.getElementById('form');
 

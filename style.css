@@ -960,7 +960,7 @@ li small {
 
   .important {
     margin-left: 60px;
-    transition-duration: 1s;
+    transition-duration: 3s;
     transform: rotate(360deg);
     color: white;
   }
